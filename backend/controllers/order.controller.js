@@ -19,7 +19,6 @@ const placeOrder = async (req, res) => {
         .status(400)
         .json({ success: false, message: "Invalid input data" });
     }
-    console.log(req.body.items);
     // Create new order
     const newOrder = new Order({
       userId,
