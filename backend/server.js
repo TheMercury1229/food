@@ -16,7 +16,7 @@ const port = process.env.PORT||5000;
 app.use(express.json()); // parse request body as json
 app.use(
   cors({
-    origin: ["https://tomato-hardik.onrender.com","https://food-209w.onrender.com"],
+    origin: ["https://food-6zgg.vercel.app","https://food-nu-liard.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
