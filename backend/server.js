@@ -16,7 +16,7 @@ const port = process.env.PORT||5000;
 app.use(express.json()); // parse request body as json
 app.use(
   cors({
-    origin: ["http://localhost:5173","http://localhost:5174"],
+    origin: ["https://tomato-hardik.onrender.com","https://food-209w.onrender.com/"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
